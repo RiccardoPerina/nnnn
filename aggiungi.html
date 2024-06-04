@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aggiungi un videogioco</title>
+
+  <style>
+    body {font-family: sans-serif;}
+  </style>
+</head>
+<body>
+  <h1>Aggiungi un videogioco</h1>
+
+  <form action="aggiungi.php" method="post">
+    <label for="">Titolo</label><br>
+    <input type="text" name="titolo"><br>
+
+    <label for="">Genere</label><br>
+    <input type="text" name="genere"><br>
+
+    <label for="">Piattaforma</label><br>
+    <input type="text" name="piattaforma"><br>
+
+    <label for="">Anno di rilascio</label><br>
+    <input type="number" name="annoRilascio"><br>
+
+    <label for="">Numero di giocatori</label><br>
+    <input type="number" name="numGiocatori"><br>
+
+    <label for="">Valutazione</label><br>
+    <input type="text" name="valutazione"><br>
+
+    <input type="submit" value="Aggiungi">
+  </form>
+</body>
+</html>
